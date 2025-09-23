@@ -3,6 +3,7 @@
   "description": "FlowBank HTML template",
   "version": "1.0.0",
   "author": "Flowdev Teams",
+  
   "scripts": {
     "dev": "npx tailwindcss -i ./input.css -o ./assets/css/output.css --watch",
     "build": "npx tailwindcss -i ./input.css -o ./assets/css/output.css"
