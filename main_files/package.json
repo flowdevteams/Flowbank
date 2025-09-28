@@ -3,11 +3,8 @@
   "description": "FlowBank HTML template",
   "version": "1.0.0",
   "author": "Flowdev Teams",
-
-
-
   "scripts": {
-    "dev": "npx tailwindcss -i ./input.css -o ./assets/css/output.css",
+    "dev": "npx tailwindcss -i ./input.css -o ./assets/css/output.css --watch",
     "build": "npx tailwindcss -i ./input.css -o ./assets/css/output.css"
   },
   "devDependencies": {
@@ -15,8 +12,8 @@
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "tailwindcss": "^3.2.7"
-
-
-    
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001745"
   }
 }
